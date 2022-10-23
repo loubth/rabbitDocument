@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0923d02d-a53f-4a9f-ac77-706b64d87d38" name="默认更改列表" comment="" />
+    <ignored path="$PROJECT_DIR$/producer/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq-producer/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-rabbitmq-cosumers/target/" />
+    <ignored path="$PROJECT_DIR$/spring-rabbitmq-producers/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-producer/target/" />
+    <ignored path="$PROJECT_DIR$/producer-springboot/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-springboot/target/" />
+    <ignored path="$PROJECT_DIR$/demo-springboot/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RabbimtMQListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer-springboot/src/main/java/com/loubth/consumerspringboot/RabbimtMQListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-rabbitmq-producer.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-rabbitmq-producers/src/main/resources/spring-rabbitmq-producer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProducerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/producer-springboot/src/test/java/com/loubth/test/ProducerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.itheima</find>
+      <find>com.</find>
+      <find>spring</find>
+      <find>spring_fanout_exchange</find>
+      <find>spring_fanout_queue_1</find>
+      <find>exchange</find>
+      <find>spring_topic_exchange</find>
+      <find>heima</find>
+      <find>bean</find>
+      <find>rabbitTemplate</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>com.loubth</replace>
+      <replace>loubth</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\loubth\Desktop\RabbitMQProject\consumer-springboot</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/loubth/producer/Producer_HelloWorld.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_HelloWorld.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/loubth/producer/Producer_WorkQueues.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_WorkQueues2.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_WorkQueues1.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/loubth/producer/Producer_PubSub.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_PubSub2.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_PubSub1.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/loubth/producer/Producer_Routing.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_Routing3.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_Routing2.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_Routing1.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/loubth/producer/Producer_Topics.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_Topic3.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_Topic2.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_Topic1.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-producers/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-cosumers/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-producers/src/main/resources/rabbitmq.properties" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-producers/src/test/java/com/itheima/ProducerTest.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/src/main/resources/rabbitmq.properties" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-producers/src/main/resources/spring-rabbitmq-producer.xml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-producers/src/test/java/com/loubth/ProducerTest.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-cosumers/src/test/java/com/loubth/ConsumerTest.java" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-cosumers/src/main/resources/spring-rabbitmq-consumer.xml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-producers/src/test/java/com/loubth/123.css" />
+        <option value="$PROJECT_DIR$/springboot-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/producer-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-rabbitmq-producers/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/producer-springboot/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/producer-springboot/src/main/java/com/loubth/rabbitmq/config/RabbitMQConfig.java" />
+        <option value="$PROJECT_DIR$/producer-springboot/src/main/java/com/loubth/ProducerApplication.java" />
+        <option value="$PROJECT_DIR$/consumer-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-springboot/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/producer-springboot/src/test/java/com/loubth/test/ProducerTest.java" />
+        <option value="$PROJECT_DIR$/consumer-springboot/src/main/java/com/loubth/consumerspringboot/RabbimtMQListener.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rabbitmq-consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1080" />
+    <option name="height" value="562" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RabbitMQProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-rabbitmq-producers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-rabbitmq-producers" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-rabbitmq-producers" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabbitMQProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-rabbitmq-producers" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="rabbit&#9;FILE&#9;file://C:/Users/loubth/Desktop/RabbitMQProject/spring-rabbitmq-producers/src/main/resources/spring-rabbitmq-producer.xml&#10;启动&#9;ACTION&#9;SwitchBootJdk" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RabbitMQProject2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28965518" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\loubth\Desktop\RabbitMQProject\consumer-springboot" />
+      <recent name="C:\Users\loubth\Desktop\RabbitMQProject\consumer-springboot\src" />
+      <recent name="C:\Users\loubth\Desktop\RabbitMQProject\producer-springboot" />
+      <recent name="C:\Users\loubth\Desktop\RabbitMQProject\spring-rabbitmq-producers" />
+      <recent name="C:\Users\loubth\Desktop\RabbitMQProject\spring-rabbitmq-cosumers\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ProducerTest.testSend">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ProducerTest.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producer-springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.loubth.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.loubth.test" />
+      <option name="MAIN_CLASS_NAME" value="com.loubth.test.ProducerTest" />
+      <option name="METHOD_NAME" value="testSend" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ConsumerSpringbootApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.consumerspringboot.ConsumerSpringbootApplication" />
+    </configuration>
+    <configuration name="ConsumerSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.loubth.consumerspringboot.ConsumerSpringbootApplication" />
+    </configuration>
+    <configuration name="DemoSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.loubth.demospringboot.DemoSpringbootApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ConsumerSpringbootApplication" />
+      <item itemvalue="Spring Boot.ConsumerSpringbootApplication (1)" />
+      <item itemvalue="Spring Boot.DemoSpringbootApplication" />
+      <item itemvalue="JUnit.ProducerTest.testSend" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProducerTest.testSend" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0923d02d-a53f-4a9f-ac77-706b64d87d38" name="默认更改列表" comment="" />
+      <created>1646148819066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646148819066</updated>
+      <workItem from="1646148820205" duration="862000" />
+      <workItem from="1646149801243" duration="10967000" />
+      <workItem from="1648050995901" duration="11092000" />
+      <workItem from="1648782092283" duration="106000" />
+      <workItem from="1648782529532" duration="26000" />
+      <workItem from="1648782617195" duration="38000" />
+      <workItem from="1648782670242" duration="6079000" />
+      <workItem from="1649072909902" duration="13259000" />
+      <workItem from="1649304820250" duration="12480000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ConsumerTest_test1 - 2022.04.06 at 17h 20m 12s.xml">
+      <configuration name="ConsumerTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsumerTest_test1_(1) - 2022.04.06 at 17h 21m 56s.xml">
+      <configuration name="ConsumerTest.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsumerTest_test1 - 2022.04.06 at 17h 24m 19s.xml">
+      <configuration name="ConsumerTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testSend - 2022.04.08 at 01h 08m 05s.xml">
+      <configuration name="ProducerTest.testSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testSend - 2022.04.08 at 01h 13m 18s.xml">
+      <configuration name="ProducerTest.testSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testSend - 2022.04.08 at 01h 13m 54s.xml">
+      <configuration name="ProducerTest.testSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testSend - 2022.04.08 at 01h 14m 19s.xml">
+      <configuration name="ProducerTest.testSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testSend - 2022.04.08 at 01h 14m 33s.xml">
+      <configuration name="ProducerTest.testSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testSend - 2022.04.08 at 01h 15m 23s.xml">
+      <configuration name="ProducerTest.testSend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_testSend - 2022.04.08 at 02h 12m 47s.xml">
+      <configuration name="ProducerTest.testSend" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="54909000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" auto_hide="true" id="TODO" order="10" type="SLIDING" weight="0.32897604" />
+      <window_info anchor="right" id="调试" order="7" type="SLIDING" weight="0.68336886" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32897604" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.32897604" />
+      <window_info id="Maven Projects" order="3" type="SLIDING" weight="0.32995737" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32897604" />
+      <window_info anchor="right" id="调色板" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info active="true" anchor="right" auto_hide="true" content_ui="combo" id="Project" order="1" type="SLIDING" visible="true" weight="0.3075693" />
+      <window_info id="设计器" order="0" />
+      <window_info id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="bottom" id="Find" order="2" type="SLIDING" weight="0.55119824" />
+      <window_info anchor="right" id="Structure" order="3" side_tool="true" type="SLIDING" weight="0.25" />
+      <window_info id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Favorites" order="5" side_tool="true" type="SLIDING" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.32897604" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info id="Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_HelloWorld.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/rabbitmq/listener/SpringQueueListener.java" />
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer/src/test/java/com/loubth/ConsumerTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0.jar!/com/rabbitmq/client/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0.jar!/com/rabbitmq/client/impl/recovery/AutorecoveringChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="419" column="18" selection-start-line="419" selection-start-column="18" selection-end-line="419" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.6.0/amqp-client-5.6.0.jar!/com/rabbitmq/client/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="55" lean-forward="true" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/loubth/producer/Producer_WorkQueues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_WorkQueues2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_WorkQueues1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="46" column="34" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_PubSub2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/loubth/producer/Producer_Routing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_Routing1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="24" column="45" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_Routing2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/loubth/producer/Producer_Topics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="24" column="28" lean-forward="true" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_Topic1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="39" lean-forward="true" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_Topic2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="54" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-producers/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="48" selection-start-line="9" selection-start-column="4" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/loubth/producer/Producer_PubSub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_PubSub1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cosumers/src/test/java/com/itheima/ProducerTest.java" />
+    <entry file="file://$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/loubth/producer/Producer_HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer/src/main/resources/rabbitmq.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cosumers/src/main/resources/rabbitmq.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer/src/main/resources/spring-rabbitmq-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cosumers/src/test/java/com/itheima/ConsumerTest.java" />
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-producers/src/test/java/com/loubth/123.css" />
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-producers/src/test/java/com/loubth/ProducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cosumers/src/test/java/com/loubth/ConsumerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cosumers/src/main/java/com/loubth/rabbitmq/listener/SpringQueueListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="61" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cosumers/src/main/resources/spring-rabbitmq-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="29" column="76" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.1.4.RELEASE/spring-boot-starter-parent-2.1.4.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-503" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-cosumers/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-producers/src/main/java/com/itheima/rabbitmq/config/RabbitMQConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-producers/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" lean-forward="true" selection-start-column="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-producers/src/main/resources/rabbitmq.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/producer-springboot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/producer-springboot/src/main/java/com/loubth/ProducerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/producer-springboot/src/main/java/com/loubth/rabbitmq/config/RabbitMQConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-springboot/src/src/main/java/com/itheima/consumerspringboot/RabbimtMQListener.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-springboot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-springboot/src/main/java/com/loubth/demospringboot/DemoSpringbootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-springboot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="20" lean-forward="true" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/producer-springboot/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="29" lean-forward="true" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/loubth/consumer/Consumer_HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-springboot/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-springboot/src/main/java/com/loubth/consumerspringboot/ConsumerSpringbootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/producer-springboot/src/test/java/com/loubth/test/ProducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-springboot/src/main/java/com/loubth/consumerspringboot/RabbimtMQListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rabbitmq-producers/src/main/resources/spring-rabbitmq-producer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>extjs4.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>consumer-springboot</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28965518" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.rabbitmq:amqp-client:5.6.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28965518" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

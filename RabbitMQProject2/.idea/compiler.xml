@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consumer-springboot" />
+        <module name="producer-springboot" />
+        <module name="rabbitmq-consumer" />
+        <module name="rabbitmq-producer" />
+        <module name="spring-rabbitmq-cosumers" />
+        <module name="spring-rabbitmq-producers" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer-springboot" target="1.8" />
+      <module name="demo-springboot" target="1.8" />
+      <module name="producer" target="1.5" />
+      <module name="producer-springboot" target="1.8" />
+      <module name="rabbitmq-consumer" target="1.8" />
+      <module name="rabbitmq-producer" target="1.8" />
+      <module name="spring-rabbitmq-cosumers" target="1.8" />
+      <module name="spring-rabbitmq-producers" target="1.8" />
+      <module name="springboot-producer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
